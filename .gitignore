@@ -1,0 +1,32 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Matplotlib and notebook runtime artifacts
+.matplotlib/
+.ipynb_checkpoints/
+
+# Local TensorFlow logs and checkpoints
+logs/
+*.keras
+*.h5
+*.ckpt
+
+# Downloaded or extracted datasets
+dataset/*
+!dataset/.gitkeep
+
+# Keep the baseline metadata and evaluation visuals, but ignore model binaries
+saved model/baseline/efficientnetb2_local.keras
